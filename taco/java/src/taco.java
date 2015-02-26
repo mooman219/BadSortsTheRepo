@@ -11,7 +11,6 @@ public class taco {
 	}
 	
 	public static boolean isSorted(List<Integer> numbers){
-
 		for (Integer number : numbers){
 			if (number > numbers.get(number+1)) {
 				return false;
@@ -23,8 +22,14 @@ public class taco {
 	public static void loop(List<Integer> numbers){
 		int count = 0;
 		while (!isSorted(numbers)){
-			//TODO
+			sort(numbers);
+			count++;
+			//print stuff every million iterations
+			if(count%1000000 == 0){
+				System.out.println("current count is: " + count);
+			}
 		}
+		System.out.println("final count is: " + count);
 	}
 	
 	public static void sort(List<Integer> numbers){
