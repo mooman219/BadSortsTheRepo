@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
@@ -11,8 +12,8 @@ public class taco {
 	}
 	
 	public static boolean isSorted(List<Integer> numbers){
-		for (Integer number : numbers){
-			if (number > numbers.get(number+1)) {
+		for (int i = 0; i <numbers.size()-1; i++){
+			if (numbers.get(i) < numbers.get(i+1)){
 				return false;
 			}
 		}
@@ -46,8 +47,12 @@ public class taco {
 	}
 	
 	public static List<Integer> generateNumbers(int amount){
-		//TODO
-		return null;
+		List<Integer> numbers = new ArrayList<Integer>();
+		Random rand = new Random();
+		for (int i=0; i<amount; i++){
+			numbers.add(rand.nextInt(100+1));
+		}
+		return numbers;
 		
 	}
 }
