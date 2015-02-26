@@ -2,11 +2,11 @@
 # NetBeans specific
 ############
 
-*/nbproject/
-*/nbbuild/
-*/build/
-*/dist/
-*/nbdist/
+*nbproject/
+*nbbuild/
+*build/
+*dist/
+*nbdist/
 manifest.mf
 build.xml
 nbbuild.xml
