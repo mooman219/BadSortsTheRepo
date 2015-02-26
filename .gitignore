@@ -14,6 +14,14 @@ nbactions.xml
 nb-configuration.xml
 
 ############
+# Eclipse
+############
+
+.classpath
+.project
+.settings/
+
+############
 # Class Files
 ############
 
@@ -26,7 +34,6 @@ nb-configuration.xml
 *.jar
 *.war
 *.ear
-
 
 ############
 ## Windows
