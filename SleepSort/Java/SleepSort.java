@@ -27,7 +27,7 @@ public class SleepSort {
                 @Override
                 public void run() {
                     try {
-                        Thread.sleep(item * 500l); // Probably a good sleep time
+                        Thread.sleep(item * 5l); // Probably a good sleep time
                     } catch (InterruptedException ex) {
                     }
                     sortedList.add(item);
@@ -54,8 +54,8 @@ public class SleepSort {
     public static void main(String[] args) {
         List<Integer> myList = new ArrayList<>();
         Random random = new Random();
-        for (int i = 0; i < 5; i++) {
-            myList.add(random.nextInt(10));
+        for (int i = 0; i < 10; i++) {
+            myList.add(random.nextInt(20));
         }
         myList = sort(myList);
         for (Integer item : myList) {
