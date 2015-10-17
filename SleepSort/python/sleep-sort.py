@@ -1,9 +1,17 @@
 """
+sleep-sort.py
 Wade Mauger
 October 2015
+Python 3.4
 
 SleepSort implemented in Python.
 I do what I want. 
+
+Pass numbers to be sorted in as parameters
+ex:
+
+python3 sleep-sort.py 2 1 3
+
 """
 import threading
 import sys
