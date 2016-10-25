@@ -1,5 +1,5 @@
-sudo code for taco:
-===================
+# Pseudocode for tacosort:
+
 ```
 while(list isn't sorted)  
   pop a random index in the list  

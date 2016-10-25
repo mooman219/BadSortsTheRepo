@@ -1,4 +1,5 @@
-# Pseudocode for Sleep sort.
+# Pseudocode for Sleepsort.
+
 The sleep sort requires elements with a radix.
 ```
 For each *element* in the unsorted list
