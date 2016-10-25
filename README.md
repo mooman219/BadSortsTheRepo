@@ -42,8 +42,12 @@ Inside of the sort's directory contains two things:
 ### Sorting algorithm
 
 Inside of your language's directory contains two things:
-- The source file in the language denoted by the folder. The source file should be designed to take command line input on stdin and display the results on stdout.
-- A readme containing various details about your specific sort. This includes dependencies, command line formatting, example command, and credits. 
+- The source file in the language denoted by the folder.
+- A readme containing various details about your specific sort. This can include (if applicable):
+ - Dependencies.
+ - Command line formatting.
+ - Example command.
+ - Credits. 
 
 #### Example README.md
 ```
@@ -63,3 +67,10 @@ python3 sleep-sort.py 5 1 3 2
 
 Wade Mauger @wadeanthony0100
 ```
+
+### Source files
+
+Your sort implementation should be designed with the following criteria in mind:
+- Your sort operates via the command line.
+- Input is consumed on stdin.
+- Output is produced on stdout.
